@@ -12,33 +12,10 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<link rel="icon" type="image/png" href="images/idphoto.PNG" />
-	<style>
-      .cursor {
-        position: absolute;
-        width: 10px;
-        height: 10px;
-        border-radius: 5px;
-        background-color: red;
-        z-index: 9999;
-        pointer-events: none;
-		 }
-		 body {
-    cursor: none;
-  }
- .slideshow-container {
-    width: 400px;
-    height: 400px;
-    overflow: hidden;
-    position: relative;
-}
+	
+		
+ 
 
-.slideshow-container img {
-    width: 100%;
-    height: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
 
 
 
@@ -110,7 +87,7 @@
 <!--    <article class="slideshow-post">
         <div class="slideshow-container">
             <img id="slideshow-image" src="./images/idphoto.JPG" width="400" height="auto" />
-        </div> --->
+        </div>
         <ul class="actions special">
             <li><a href="gallery.html" class="button">More Photos</a></li>
         </ul>
@@ -133,31 +110,21 @@
 										<span class="date"> May 13, 2023 - August 15, 2023 </span>
 										<h2 class = "para"><a href="procsim.html">Predicting Molecule Aqueous Properties with xTB Calculations </a></h2>
 									</header>
-									<a href="rock.html" class="image fit"><img src="./images/CO2cover.png" alt=""style="width: 3.5 in; height: 3.5in" /></a>
+									<a href="procsim.html" class="image fit"><img src="./images/molecules.PNG" alt=""style="width: 3.5 in; height: 3.5in" /></a>
 									<p>Under Construction</p>
 									<ul class="actions special">
 										<li><a href="rock.html" class="button">read more</a></li>
 									</ul>
 								</article>
 						
-								<article class="grid-post">
-        <header>
-            <span class="date">May 13, 2023</span>
-            <h2 class = "para"><a href="procsim.html">Predicting Molecule Aqueous Properties with xTB Calculations </a></h2>
-        </header>
-       
-        <p> .</p>
-        <ul class="actions special">
-            <li><a href= "procsim.html" class="button">read more</a></li>
-        </ul>
-    </article>
+							
 								<article>
 									<header>
 										<span class="date">May 6, 2023 </span>
 										<h2 class = "para"><a href="CO2.html"> Can Carbon Dioxide Removal (CDR) Help 41 Cooper Reach its Carbon Removal Goals? <br />
 										</a></h2>
 									</header>
-									<a href="CO2.html" class="image fit"><img src="./images/CO2cover.png" alt=""style="width: 3.5 in; height: 3.5in" /></a>
+									<a href="CO2.html" class="image fit"><img src="./images/co2.PNG" alt=""style="width: 3.5 in; height: 3.5in" /></a>
 									<p>Under Construction</p>
 									<ul class="actions special">
 										<li><a href="CO2.html" class="button">read more</a></li>
@@ -167,7 +134,7 @@
 <article>
 									<header>
 										<span class="date">May 1, 2023</span>
-										<h2 class = "para"><a href="rod.html">Compressor Stage Design for Turbojet Engine using Ansys Fluent<br />
+										<h2 class = "para"><a href="compressor.html">Compressor Stage Design for Turbojet Engine using Ansys Fluent<br />
 										</a></h2>
 									</header>
 									<a href="compressor.html" class="image fit"><img src="./images/compressorcover.png" alt=""style="width: 3.5 in; height: 5in" /></a>
@@ -191,31 +158,7 @@
 
 							
 
-<style>
-    .slideshow-post {
-        grid-column: 1 / 3;
-    }
 
-    .slideshow-container {
-        width: 100%;
-        height: 0;
-        padding-bottom: 100%;
-        position: relative;
-        overflow: hidden;
-    }
-
-    .slideshow-container img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
-.slideshow-post ul.actions {
-        margin-top: 20px; /* Adjust the margin value as per your preference */
-    }
-</style>
 	</section>					<!-- Footer -->
 							<footer>
 								<div class="pagination">
@@ -265,16 +208,7 @@
 
 		<!-- Scripts -->
 					 <div id="root"></div>
-    <script>
-      const cursor = document.createElement("div");
-      cursor.classList.add("cursor");
-      document.body.appendChild(cursor);
-      
-      document.addEventListener("mousemove", e => {
-        cursor.style.left = e.pageX + "px";
-        cursor.style.top = e.pageY + "px";
-      });
-    </script>
+   
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
@@ -294,6 +228,7 @@
 
     setInterval(changeSlide, 2000); // Change slide every 2.5 seconds (adjust as needed)
 </script>
+
 
 
 
