@@ -1,109 +1,95 @@
 <!DOCTYPE HTML>
-
 <!--
 	Massively by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Elyse Taglia Digital Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<link rel="icon" type="image/png" href="images/pfp.PNG" />
+<head>
+	<title>Elyse Taglia Digital Portfolio</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<link rel="icon" type="image/png" href="images/pfp.PNG" />
 	<style>
-      .cursor {
-        position: absolute;
-        width: 10px;
-        height: 10px;
-        border-radius: 5px;
-        background-color: red;
-        z-index: 9999;
-        pointer-events: none;
-		 }
-		 body {
-    cursor: none;
-  }
- .slideshow-container {
-    width: 400px;
-    height: 400px;
-    overflow: hidden;
-    position: relative;
-}
+		.cursor {
+			position: absolute;
+			width: 10px;
+			height: 10px;
+			border-radius: 5px;
+			background-color: red;
+			z-index: 9999;
+			pointer-events: none;
+		}
+		body {
+			cursor: none;
+		}
+		.slideshow-container {
+			width: 400px;
+			height: 400px;
+			overflow: hidden;
+			position: relative;
+		}
+		.slideshow-container img {
+			width: 100%;
+			height: auto;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+	</style>
+</head>
+<body>
+	<!-- Header -->
+	<header id="header">
+		<a href="index.html" class="logo">Home</a>
+	</header>
 
-.slideshow-container img {
-    width: 100%;
-    height: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
+	<!-- Nav -->
+	<nav id="nav">
+		<ul class="links">
+			<li class="active"><a href="index.html">Home</a></li>
+			<li><a href="resume.html">Resume</a></li>
+			<li><a href="projects.html">Projects Timeline</a></li>
+			<li><a href="gallery.html">Photo Gallery</a></li>
+		</ul>
+		<ul class="icons">
+			<li><a href="" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+			<li><a href="mailto:elyse.taglia@cooper.edu" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+		</ul>
+	</nav>
 
+	<!-- Main -->
+	<div id="main">
+		<!-- Post -->
+		<section class="post">
+			<header>
+				<span class="date">May 12, 2023</span>
+				<h1>Predicting Molecule Aqueous Properties with xTB Calculations</h1>
+			</header>
+			<div align="center" style="width: 100%; height: 660px">
+				<embed style="width: 90%; height: 90%" src="pdf/Elyse_Nada_Donald_Nick_WhitePages_For_Final.pdf" type="application/pdf"></embed> 
+			</div>
+			<p>In this work, we present a method for calculating hydration and formation energies of molecules using the GFN2-xTB method. The code takes a SMILES representation of a molecule, generates its conformers, calculates their energies in both gas and aqueous phases, and computes the hydration and formation energies. Furthermore, the code calculates the RDKFingerprint of the molecule, which can be used for similarity searches. The method was tested on ethane, acetone, caffeine, and tryptophan. Formation and hydration energies predictions for ethane and acetone were highly accurate with a 0.0046% error for ethane and 1.0% error for acetone. The method consistently predicts accurate formation energies for large polar molecules as well, with 0.93% and 0.65% error for caffeine and tryptophan, respectively. Predicted hydration energies for caffeine and tryptophan had large errors of 47% and 29% error, respectively. The results show the robustness of the method in predicting formation energies and its limitations in predicting hydration energies for large polar and organic molecules.</p>
+		</section>
+	</div>
 
+	<!-- Copyright -->
+	<div id="copyright">
+		<ul>
+			<li>&copy; Elyse Taglia</li>
+			<li>2023</li>
+		</ul>
+	</div>
 
-
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Home</a>
-					</header>
-
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Home</a></li>
-							<li><a href="resume.html">Resume</a></li>
-							<li><a href="projects.html">Projects Timeline</a></li>
-							<li><a href="gallery.html">Photo Gallery</a></li>
-
-
-						</ul>
-						<ul class="icons">
-							<li><a href="" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="mailto:elyse.taglia@cooper.edu" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-							<div class="col-4 col-4-small">
-										</ul>
-										</div>
-
-						</ul>
-					</nav>
-
-				<!-- Main -->
-					<div id="main">
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- Post -->
-							<section class="post">
-								<header >
-									<span class="date">May 12, 2023</span>
-									<h1>Predicting Molecule Aqueous Properties with xTB Calculations </h1>
-									</header>
-								<div align = "center" style="backround-color:blue;width: 100%; height:660px">
-								<embed style="width: 90%; height: 90%"src="pdf/Elyse_Nada_Donald_Nick_WhitePages_For_Final.pdf" type= "application/pdf"><embed> 
-								</div>
-								<p>In this work, we present a method for calculating hydration and formation energies of molecules using the GFN2-xTB method. The code takes a SMILES representation of a molecule, generates its conformers, calculates their energies in both gas and aqueous phases, and computes the hydration and formation energies. Furthermore, the code calculates the RDKFingerprint of the molecule, which can be used for similarity searches. The method was tested on ethane, acetone, caffeine, and tryptophan. Formation and hydration energies predictions for ethane and acetone were highly accurate with a 0.0046% error for ethane and 1.0% error for acetone. The method consistently predicts accurate formation energies for large polar molecules as well, with 0.93% and 0.65% error for caffeine and tryptophan, respectively. Predicted hydration energies for caffeine and tryptophan had large errors of 47% and 29% error, respectively. The results show the robustness of the method in predicting formation energies and its limitations in predicting hydration energies for large polar and organic molecules.  </p>
-								</section>
-						</div>
-						
-						
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Elyse Taglia</li><li>2023</a></li></ul>
-					</div>
-
-			
-		</div>
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
 </html>
